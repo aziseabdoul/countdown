@@ -1,0 +1,86 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Fascinate', cursive;
+    font-size: 50px;
+}
+
+#t1{
+    margin-top: 50px;
+    margin-left: 600px;
+    font-family: sans-serif;
+}
+
+#hl{
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 390px;
+    margin-right: 170px;
+    font-family: sans-serif;
+}
+
+#ml{
+    display: inline-block;
+    margin-right: 160px;
+    font-family: sans-serif;
+}
+
+#sl{
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+#cellHours{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 400px;
+    display: inline-block;
+    text-align: center;
+    font-size: 140px;
+    margin-left: 320px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+#cellMinutes{
+    height: 200px;
+    width: 200px;
+    background-color:orangered;
+    border-radius: 400px;
+    display: inline-block;
+    text-align: center;
+    font-size: 140px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+#cellSeconds{
+    height: 200px;
+    width: 200px;
+    background-color:green;
+    border-radius: 400px;
+    display: inline-block;
+    text-align: center;
+    font-size: 140px;
+    font-family: sans-serif;
+}
+
+#play{
+    display: inline-block;
+    margin-left: 395px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+#stop{
+    display: inline-block;
+    margin-right: 210px;
+}
+
+#reset{
+    display: inline-block;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="countdown.css">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>COUNTDOWN</h1>
+    <form>
+        <table id="t1">
+            <caption style="font-weight: bold">Set Time Below</caption>
+            <th>Hours</th>
+            <th>Minutes</th>
+            <th>Seconds</th>
+            <tr>
+                <td><input type="text" id="txtHours" value="0" size="5" /></td>
+                <td><input type="text" id="txtMinutes" value="0" size="5" /></td>
+                <td><input type="text" id="txtSeconds" value="0" size="5" /></td>
+            </tr>
+        </table>
+
+
+        <div id="hl">Hours Left</div>
+        <div id="ml">Minutes Left</div>
+        <div id="sl">Seconds Left</div>
+
+        <div id="cell">
+            <div id="cellHours">0</div>
+
+            <div id="cellMinutes">0</div>
+            <div id="cellSeconds">0</div>
+        </div>
+
+
+        <div id="play">
+            <input type="button" value="Play" onclick="startTimer();" />
+        </div>
+        <div id="stop">
+            <input type="button" value="Stop" onclick="clearInterval(begin);" />
+        </div>
+        <div id="reset">
+            <input type="button" value="Reset" onclick="clearInterval()" ; />
+        </div>
+
+
+    </form>
+    <script src="countdown.js"></script>
+</body>
+
+</html>
